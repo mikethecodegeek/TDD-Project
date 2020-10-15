@@ -1,7 +1,6 @@
 let {returnsThree,reciprocal} = require('../problems/number-fun');
 
 const assert = require('assert');
-const { truncateSync } = require('fs');
 
 describe('Returns Three Function', ()=>{
     it('should probably return 3', ()=>{
